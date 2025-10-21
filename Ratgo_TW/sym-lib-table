@@ -1,4 +1,6 @@
 (sym_lib_table
   (version 7)
-  (lib (name "This Project")(type "KiCad")(uri "${KIPRJMOD}/10118193-0001LF.kicad_sym")(options "")(descr ""))
+  (lib (name "Ratgo")(type "KiCad")(uri "${KIPRJMOD}/Ratgo Library/10118193-0001LF.kicad_sym")(options "")(descr ""))
+  (lib (name "Ratgo2")(type "KiCad")(uri "${KIPRJMOD}/Ratgo Library/PR20206VBNN.kicad_sym")(options "")(descr ""))
+  (lib (name "EasyEDA")(type "KiCad")(uri "/Users/trent/Documents/KiCad/easyeda2kicad/easyeda2kicad.kicad_sym")(options "")(descr ""))
 )

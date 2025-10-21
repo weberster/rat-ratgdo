@@ -1,0 +1,37 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Your branch is up to date with 'origin/main'.
+#
+# Changes to be committed:
+#	new file:   Ratgo_TW/.DS_Store
+#	new file:   Ratgo_TW/Ratgo Library/10118193-0001LF.kicad_sym
+#	new file:   Ratgo_TW/Ratgo Library/AMPHENOL_10118193-0001LF.kicad_mod
+#	new file:   Ratgo_TW/Ratgo_TW-backups/Ratgo_TW-2025-01-09_215957.zip
+#	new file:   Ratgo_TW/Ratgo_TW-backups/Ratgo_TW-2025-01-11_214530.zip
+#	new file:   Ratgo_TW/Ratgo_TW-backups/Ratgo_TW-2025-01-11_233011.zip
+#	new file:   Ratgo_TW/Ratgo_TW-backups/Ratgo_TW-2025-01-11_234249.zip
+#	new file:   Ratgo_TW/Ratgo_TW-backups/Ratgo_TW-2025-01-17_124946.zip
+#	new file:   Ratgo_TW/Ratgo_TW-backups/Ratgo_TW-2025-01-19_224257.zip
+#	new file:   Ratgo_TW/Ratgo_TW-backups/Ratgo_TW-2025-02-27_103237.zip
+#	new file:   Ratgo_TW/Ratgo_TW-backups/Ratgo_TW-2025-03-09_191531.zip
+#	new file:   Ratgo_TW/Ratgo_TW-backups/Ratgo_TW-2025-03-27_222819.zip
+#	new file:   Ratgo_TW/Ratgo_TW-backups/Ratgo_TW-2025-10-10_204113.zip
+#	new file:   Ratgo_TW/Ratgo_TW.kicad_pcb
+#	new file:   Ratgo_TW/Ratgo_TW.kicad_prl
+#	new file:   Ratgo_TW/Ratgo_TW.kicad_pro
+#	new file:   Ratgo_TW/Ratgo_TW.kicad_sch
+#	new file:   Ratgo_TW/fp-info-cache
+#	new file:   Ratgo_TW/sym-lib-table
+#
+# Changes not staged for commit:
+#	modified:   kicad_files/Bare ESP8266 USB/goatgdo.kicad_prl
+#	modified:   kicad_files/Bare ESP8266 USB/goatgdo.kicad_pro
+#
+# Untracked files:
+#	.DS_Store
+
+Moving files to git folder
+
