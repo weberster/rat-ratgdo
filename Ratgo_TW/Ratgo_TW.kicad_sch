@@ -5,246 +5,6 @@
 	(uuid "88f8a0bf-ab0f-4f01-a313-a28ffd6ab770")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Screw_Terminal_01x03"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Screw_Terminal_01x03"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "screw terminal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TerminalBlock*:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Screw_Terminal_01x03_1_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 2.8702) (xy 0.3302 2.032)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 0.508) (xy 0.508 -0.3302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 3.048) (xy 0.508 2.2098)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -542,6 +302,308 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "EasyEDA:Header-Male-2.54_1x6"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Header-Male-2.54_1x6"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:HDR-TH_6P-P2.54-V-M-1"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Male-Header_2-54mm-1x6-Header_C37208.html"
+				(at 0 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C37208"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Header-Male-2.54_1x6_0_1"
+				(rectangle
+					(start -2.54 8.89)
+					(end 2.54 -8.89)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 6.35 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 3.81 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -3.81 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -6.35 0)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "EasyEDA:MKDSN1.5_3-5.08"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CN"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MKDSN1.5/3-5.08"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:CONN-TH_3P-P5.08_1729131"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Connectors_Phoenix-Contact_MKDSN1-5-3-5-08_MKDSN-1-5-3-5-08_C91154.html"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C91154"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MKDSN1.5_3-5.08_0_1"
+				(rectangle
+					(start -1.27 7.62)
+					(end 6.35 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 5.08 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 0 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1261,307 +1323,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Ratgo2:PR20206VBNN"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -3.81 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "PR20206VBNN"
-				(at -4.064 -12.954 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Ratgo2:METZ-CONNECT_PR20206VBNN"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "8.6 mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "CREATOR" "AAMIR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "Y"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "VERIFIER" "RODRIGO"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Metz Connect"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "PR20206VBNN_0_0"
-				(rectangle
-					(start -3.81 -10.16)
-					(end 5.08 7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -3.175 -7.9375)
-					(end -1.5875 -7.3025)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -3.175 -5.3975)
-					(end -1.5875 -4.7625)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -3.175 -2.8575)
-					(end -1.5875 -2.2225)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -3.175 -0.3175)
-					(end -1.5875 0.3175)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -3.175 2.2225)
-					(end -1.5875 2.8575)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -3.175 4.7625)
-					(end -1.5875 5.3975)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at -7.62 5.08 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -5.08 0)
-					(length 5.08)
-					(name "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -7.62 0)
-					(length 5.08)
-					(name "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
 							)
 						)
 					)
@@ -2986,16 +2747,16 @@
 		(uuid "0e29b5a6-41c7-4b4b-b349-318d47d39927")
 	)
 	(junction
-		(at 173.99 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1f974e2b-67ab-4a93-8334-244e50353d09")
-	)
-	(junction
 		(at 38.1 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2d7c3225-ffb2-472d-b6fc-a836b286420b")
+	)
+	(junction
+		(at 107.95 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3775b190-99e7-4c87-ba37-9fbf1548b137")
 	)
 	(junction
 		(at 82.55 41.91)
@@ -3022,6 +2783,12 @@
 		(uuid "605535f8-5e3d-4109-95d8-1f74f046f68c")
 	)
 	(junction
+		(at 95.25 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67ffcd26-f61a-4595-b13d-3fb60d9fa77f")
+	)
+	(junction
 		(at 115.57 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3038,12 +2805,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7bbcda2f-40a0-4df3-9f52-e40ba521495a")
-	)
-	(junction
-		(at 92.71 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7eb54c38-7501-4e44-978b-6ddee9fb0de0")
 	)
 	(junction
 		(at 82.55 46.99)
@@ -3070,10 +2831,22 @@
 		(uuid "aa60dbe5-3ce0-4534-8455-b47ee67346d9")
 	)
 	(junction
+		(at 102.87 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aabc8edc-d3e3-4432-9fa9-6e9847d9f651")
+	)
+	(junction
 		(at 120.65 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1a68e91-7a3e-44bb-8793-aaf9cdb0df17")
+	)
+	(junction
+		(at 95.25 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c33cddf5-b6b7-4e04-a467-fccf7d835835")
 	)
 	(junction
 		(at 109.22 22.86)
@@ -3088,6 +2861,12 @@
 		(uuid "c5f9ae34-9640-476b-9c35-5d3195b4cee5")
 	)
 	(junction
+		(at 100.33 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9c9aa74-5c4b-441d-a62c-da2d8a660494")
+	)
+	(junction
 		(at 66.04 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3099,18 +2878,6 @@
 		(color 0 0 0 0)
 		(uuid "e32249ae-647e-481d-9e46-5fe96542b750")
 	)
-	(junction
-		(at 166.37 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e7967c18-c286-4a8d-9cf2-cd6a10054896")
-	)
-	(junction
-		(at 82.55 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ec05e7f1-e0a1-4a13-9873-15fcebf881ba")
-	)
 	(wire
 		(pts
 			(xy 120.65 31.75) (xy 120.65 36.83)
@@ -3120,16 +2887,6 @@
 			(type default)
 		)
 		(uuid "04bd0b87-6fa0-4462-a826-2c0d4df2f45f")
-	)
-	(wire
-		(pts
-			(xy 166.37 97.79) (xy 173.99 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c9aa42d-add8-4470-acf0-c3067e54e014")
 	)
 	(wire
 		(pts
@@ -3183,7 +2940,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 57.15) (xy 82.55 59.69)
+			(xy 82.55 57.15) (xy 82.55 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3220,6 +2977,16 @@
 			(type default)
 		)
 		(uuid "29d5da8c-a69e-4376-b1ad-97f1ae06207d")
+	)
+	(wire
+		(pts
+			(xy 107.95 92.71) (xy 107.95 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a4ccf33-0953-41f9-80d9-57b7f4fd4f9a")
 	)
 	(wire
 		(pts
@@ -3313,7 +3080,17 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 92.71) (xy 199.39 86.36)
+			(xy 102.87 80.01) (xy 102.87 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52807c05-53bd-4a10-89f0-26d6200a6879")
+	)
+	(wire
+		(pts
+			(xy 199.39 87.63) (xy 199.39 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3393,16 +3170,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 41.91) (xy 105.41 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cc80a06-f6a4-412a-a83b-27703dc6172f")
-	)
-	(wire
-		(pts
 			(xy 38.1 107.95) (xy 38.1 110.49)
 		)
 		(stroke
@@ -3423,23 +3190,13 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 71.12) (xy 193.04 95.25)
+			(xy 193.04 71.12) (xy 193.04 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6ff2b972-e8c9-4b9b-9bf1-7ed565d7d1ff")
-	)
-	(wire
-		(pts
-			(xy 92.71 22.86) (xy 92.71 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "713d5d8d-6d56-4179-b284-13fae1f482ca")
 	)
 	(wire
 		(pts
@@ -3513,13 +3270,13 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 95.25) (xy 200.66 95.25)
+			(xy 100.33 22.86) (xy 100.33 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7e89120b-eacd-4533-a0b8-b5b53b97b864")
+		(uuid "806d2b0f-1683-4430-bbb7-8a153da2461c")
 	)
 	(wire
 		(pts
@@ -3530,6 +3287,36 @@
 			(type default)
 		)
 		(uuid "80bbb3b5-9cc8-42f6-a2b2-d230fb43fdb1")
+	)
+	(wire
+		(pts
+			(xy 193.04 92.71) (xy 200.66 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "815c1554-91ca-4690-90c9-302dff0b54f5")
+	)
+	(wire
+		(pts
+			(xy 135.89 41.91) (xy 115.57 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83e530cc-123f-43af-a1b1-c876f6614df4")
+	)
+	(wire
+		(pts
+			(xy 115.57 41.91) (xy 115.57 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8515537d-cf08-4973-8ad1-0ee9d238a916")
 	)
 	(wire
 		(pts
@@ -3553,7 +3340,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 41.91) (xy 92.71 41.91)
+			(xy 91.44 41.91) (xy 95.25 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3570,6 +3357,26 @@
 			(type default)
 		)
 		(uuid "8bfe254e-2a97-49c4-91ce-092b5068e8f3")
+	)
+	(wire
+		(pts
+			(xy 95.25 41.91) (xy 105.41 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "903f5a9d-2493-4bf0-9253-a75319fb6b13")
+	)
+	(wire
+		(pts
+			(xy 95.25 38.1) (xy 95.25 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9691269b-53a7-40c5-bcf3-ea1791188faa")
 	)
 	(wire
 		(pts
@@ -3600,16 +3407,6 @@
 			(type default)
 		)
 		(uuid "9f58651d-2fbc-424a-8e8a-3fe2070f3d58")
-	)
-	(wire
-		(pts
-			(xy 82.55 59.69) (xy 105.41 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a119c893-62a9-4dcb-8588-539ab2cad8c6")
 	)
 	(wire
 		(pts
@@ -3723,26 +3520,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 22.86) (xy 95.25 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c619f14e-56e9-44bc-ad09-f4726f07c692")
-	)
-	(wire
-		(pts
-			(xy 82.55 59.69) (xy 82.55 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c61f8bbf-77dc-4ea5-819c-f6b4745d396e")
-	)
-	(wire
-		(pts
 			(xy 151.13 97.79) (xy 151.13 101.6)
 		)
 		(stroke
@@ -3803,6 +3580,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 92.71) (xy 102.87 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6cebd24-b6ae-471a-a5ee-89554d3842e3")
+	)
+	(wire
+		(pts
 			(xy 82.55 15.24) (xy 82.55 41.91)
 		)
 		(stroke
@@ -3833,7 +3620,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 92.71) (xy 200.66 92.71)
+			(xy 199.39 87.63) (xy 200.66 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3870,6 +3657,26 @@
 			(type default)
 		)
 		(uuid "eb74dc5b-d62f-471b-956f-0547c70d0c3f")
+	)
+	(wire
+		(pts
+			(xy 115.57 80.01) (xy 102.87 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec24098a-be4e-4c87-9269-8a0c371e7ac1")
+	)
+	(wire
+		(pts
+			(xy 95.25 22.86) (xy 95.25 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2752f7c-692b-48e1-9bc8-4a60c8e1feb4")
 	)
 	(wire
 		(pts
@@ -3922,8 +3729,8 @@
 		(uuid "fdf106bc-c7cc-4856-9319-0aed945336e3")
 	)
 	(symbol
-		(lib_id "Ratgo2:PR20206VBNN")
-		(at 160.02 38.1 0)
+		(lib_id "EasyEDA:Header-Male-2.54_1x6")
+		(at 157.48 36.83 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3932,7 +3739,7 @@
 		(dnp no)
 		(uuid "027e5661-623e-442e-a91f-509758b3277a")
 		(property "Reference" "J3"
-			(at 162.56 38.1001 0)
+			(at 160.02 36.8301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3941,7 +3748,7 @@
 			)
 		)
 		(property "Value" "Conn_01x06"
-			(at 162.56 35.5601 0)
+			(at 160.02 34.2901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3949,18 +3756,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Ratgo2:METZ-CONNECT_PR20206VBNN"
-			(at 160.02 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 38.1 0)
+		(property "Footprint" "easyeda2kicad:HDR-TH_6P-P2.54-V-M-1"
+			(at 157.48 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3968,8 +3765,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 160.02 38.1 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Male-Header_2-54mm-1x6-Header_C37208.html"
+			(at 157.48 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3977,63 +3774,21 @@
 				(hide yes)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "8.6 mm"
-			(at 160.02 38.1 0)
+		(property "Description" ""
+			(at 157.48 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "CREATOR" "AAMIR"
-			(at 160.02 38.1 0)
+		(property "LCSC Part" "C37208"
+			(at 157.48 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 160.02 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "Y"
-			(at 160.02 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "VERIFIER" "RODRIGO"
-			(at 160.02 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Metz Connect"
-			(at 160.02 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -6151,8 +5906,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 205.74 95.25 0)
+		(lib_id "EasyEDA:MKDSN1.5_3-5.08")
+		(at 207.01 92.71 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6162,34 +5917,23 @@
 		(fields_autoplaced yes)
 		(uuid "f332ed2a-1ae6-44d9-83c9-fdfc1da6fbbf")
 		(property "Reference" "J2"
-			(at 208.28 96.5201 0)
+			(at 209.55 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "Screw_Terminal_01x03"
-			(at 208.28 93.9801 0)
+			(at 209.55 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Ratgo2:TB006-508-03BE"
-			(at 205.74 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 205.74 95.25 0)
+		(property "Footprint" "easyeda2kicad:CONN-TH_3P-P5.08_1729131"
+			(at 207.01 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6197,8 +5941,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 205.74 95.25 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Connectors_Phoenix-Contact_MKDSN1-5-3-5-08_MKDSN-1-5-3-5-08_C91154.html"
+			(at 207.01 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 207.01 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C91154"
+			(at 207.01 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)

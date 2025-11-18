@@ -1,4 +1,4 @@
-23157605902918677
+23161132453919800
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55670,6 +55670,20 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+EasyEDA
+CONN-TH_3P-P5.08_1729131
+
+
+0
+3
+3
+EasyEDA
+HDR-TH_6P-P2.54-V-M-1
+
+
+0
+6
+6
 EasyEDA
 SW-SMD_4P-L6.2-W6.2-P4.00-LS6.8
 
